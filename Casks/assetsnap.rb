@@ -1,6 +1,6 @@
 cask "assetsnap" do
-  version "0.0.6"
-  sha256 "480ed43dd5324ae8cc3c2539da74f15ae202d4ff8f60971ef9b50e2561e482ae"
+  version "0.0.7"
+  sha256 "ae7bb117ee6bf842810cd2edee6b1cedbbecee504120c63ed483bb1a92b9afb5"
 
   url "https://assetsnap.binarybeam.net/releases/AssetSnap-#{version}.dmg"
   name "AssetSnap"
