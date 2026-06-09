@@ -9,6 +9,7 @@ the qualified cask name.
 | App | Install |
 |-----|---------|
 | [AssetSnap](https://assetsnap.binarybeam.net) — developer assets from your menu bar | `brew install --cask binary-beam/tap/assetsnap` |
+| [Glint](https://glint.binarybeam.net) — Claude Code session activity in your menu bar and notch | `brew install --cask binary-beam/tap/glint` |
 
 More to come — each new app is added as its own cask under `Casks/`.
 
@@ -46,5 +47,8 @@ brew uninstall --zap --cask <app>    # also clear preferences/caches
   removes the `com.apple.quarantine` flag on install so the app opens cleanly —
   this bypasses Gatekeeper's notarization check rather than passing it. Requires
   macOS 14 (Sonoma) or later, on Apple Silicon or Intel.
+- **Glint** is an ad-hoc-signed beta (not yet notarized), so its cask strips the
+  same `com.apple.quarantine` flag on install. Current builds are Apple Silicon
+  (arm64) only and need macOS 14 (Sonoma) or later.
 - Each app's cask `version` and `sha256` are bumped automatically on release by
   that app's `scripts/release.sh`.
