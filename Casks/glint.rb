@@ -1,6 +1,6 @@
 cask "glint" do
-  version "0.0.8"
-  sha256 "ccdeb68625c07992dfa74712edc5e3cd03b1268a86e652bd0e71a4aa7cbee9e9"
+  version "0.0.9"
+  sha256 "d45666947d12c671151a884f25cee22911c72a35e8e835c9f6465d04bd92c569"
 
   url "https://glint.binarybeam.net/releases/Glint-#{version}.dmg"
   name "Glint"
